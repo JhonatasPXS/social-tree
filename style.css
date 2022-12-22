@@ -40,6 +40,10 @@ header{
     
 }
 
+a{
+    color: #BB99DD;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -49,18 +53,26 @@ main{
 .links{
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 2vh;
     flex-direction: column;
 }
 
 .link{
-    width: 30vh;
     text-align: center;
     border: 1px solid #BB99DD;
-    color: #BB99DD;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    color: #BB99DD;;
     font-family: 'Poppins', sans-serif;
+}
+
+button{
+    width: 30vh;
+    height: 2.3em;
+    background-color: #FAF7FD;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: #e9e9ed;
 }
 
 .social-media {
@@ -70,3 +82,9 @@ main{
     gap: 10px;
     justify-content: center;
 }
+
+.social-img:hover{
+    width: 5vh;
+}
+
+
